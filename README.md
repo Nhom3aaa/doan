@@ -40,6 +40,7 @@ Mở terminal mới, vào thư mục frontend:
 ```bash
 cd frontend
 npm install
+bị lỗi phiển bản thì dùng : npm install --legacy-peer-deps
 ```
 
 **Chạy ứng dụng:**
