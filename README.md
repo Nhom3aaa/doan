@@ -21,7 +21,7 @@ npm install
 ```
 
 **Cấu hình môi trường (.env):**
-Bạn có thể copy từ file mẫu: `cp .env.example .env` hoặc tạo mới file `.env` trong thư mục `backend`:
+Bạn có thể copy từ file mẫu:  tạo mới file `.env` trong thư mục `backend`:
 
 ```env
 PORT=5001
@@ -98,6 +98,8 @@ Hệ thống sẽ chạy tại:
 - Giỏ hàng, Đặt hàng, Thanh toán online/COD.
 - Theo dõi trạng thái đơn hàng realtime.
 - Chat trực tiếp với nhân viên hỗ trợ.
+- tk : user@example.com
+- mk :user123
 
 ### 👑 Quản trị viên (Admin)
 
@@ -106,6 +108,8 @@ Hệ thống sẽ chạy tại:
 - Quản lý Đơn hàng: Xác nhận, gán shipper, hủy đơn.
 - **Xem bằng chứng giao hàng**: Xem ảnh/video shipper gửi về ngay trên chi tiết đơn.
 - Quản lý Người dùng và Chat Support.
+- tk :  admin@chungmobile.com
+- mk : admin123
 
 ### 🚚 Nhân viên giao hàng (Shipper) [MỚI]
 
@@ -114,6 +118,8 @@ Hệ thống sẽ chạy tại:
 - **Quản lý đơn giao**: Xem danh sách đơn cần giao, gọi điện cho khách ngay trên app.
 - **Cập nhật trạng thái**: Đang giao, Đã giao, Hủy.
 - **Bằng chứng giao hàng**: Bắt buộc Upload Ảnh/Video khi xác nhận "Đã giao" để đảm bảo tính minh bạch.
+- đăng nhâp  : chung@gmail.com
+- mk : 123456
 
 ## 🤝 Đóng góp
 
