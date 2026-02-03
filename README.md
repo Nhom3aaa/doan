@@ -24,32 +24,12 @@ npm install
 Bạn có thể copy từ file mẫu: `cp .env.example .env` hoặc tạo mới file `.env` trong thư mục `backend`:
 
 ```env
-# Server Configuration
 PORT=5001
-NODE_ENV=development
-
-# Database
 MONGODB_URI=mongodb://localhost:27017/phone-store
+JWT_SECRET=chuoi_bi_mat_cua_ban
+SESSION_SECRET=chuoi_bi_mat_session
 
-# Security
-JWT_SECRET=your_jwt_secret_key
 
-# Social Auth (Optional)
-GOOGLE_CLIENT_ID=your_id
-GOOGLE_CLIENT_SECRET=your_secret
-
-# AI Features (Optional)
-GROQ_API_KEY=your_key
-```
-
-**Chạy server:**
-
-```bash
-# Chạy với nodemon (dev mode)
-npm run dev
-# Hoặc chạy thường
-npm start
-```
 
 Backend sẽ chạy tại: `http://localhost:5001`
 
@@ -85,7 +65,7 @@ docker-compose up --build -d
 
 Hệ thống sẽ chạy tại:
 
-- **Frontend**: `http://localhost:80` (hoặc `http://localhost`)
+- **Frontend**: `http://localhost:4200` (hoặc `http://localhost`)
 - **Backend**: `http://localhost:5001`
 - **MongoDB**: `localhost:27017`
 
